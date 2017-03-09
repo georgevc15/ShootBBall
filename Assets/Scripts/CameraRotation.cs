@@ -5,9 +5,9 @@ public class CameraRotation : MonoBehaviour {
 
     // Use this for initialization
 	void Start () {
-        print("Parent transform");
-        print(transform);
-        print("Camera Transform");
+        //print("Parent transform");
+        //print(transform);
+        //print("Camera Transform");
     }
 	
 	// Update is called once per frame
