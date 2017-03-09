@@ -3,8 +3,6 @@ using System.Collections;
 
 public class CameraRotation : MonoBehaviour {
 
-
-    
     // Use this for initialization
 	void Start () {
         print("Parent transform");
