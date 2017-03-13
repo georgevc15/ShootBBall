@@ -15,6 +15,11 @@ public class LevelManager : MonoBehaviour {
         {
             StartGame();
         }
+
+        if(Input.GetKeyDown(KeyCode.Q))
+        {
+            FinishGame();
+        }
     }
 
     void StartGame()
@@ -23,6 +28,15 @@ public class LevelManager : MonoBehaviour {
             int currentIndex = SceneManager.GetActiveScene().buildIndex;
             //Load currentIndex + 1
             SceneManager.LoadScene(currentIndex + 1);
+    }
+
+
+    void FinishGame()
+    {
+        //Load Scene
+        int currentIndex = SceneManager.GetActiveScene().buildIndex;
+        //Load currentIndex + 1
+        SceneManager.LoadScene(currentIndex + 1);
     }
 
 }
