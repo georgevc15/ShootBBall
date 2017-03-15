@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: abf44422566c7fa4d80a5b3c477ef3ed
-timeCreated: 1489576969
+guid: 3ec717784b661004b8b643f0a8dc6e7d
+timeCreated: 1489581784
 licenseType: Free
 TrueTypeFontImporter:
   serializedVersion: 4
@@ -10,7 +10,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Shave the Whales Personal Use
+  - Silver Age Queens
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0

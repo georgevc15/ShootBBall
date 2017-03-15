@@ -18,6 +18,7 @@ public class LevelManager : MonoBehaviour {
         {
             LoadNextScene();
         }
+
         if (timeTillNextLevel > 0)
         {
             timeTillNextLevel -= Time.deltaTime;
@@ -27,6 +28,7 @@ public class LevelManager : MonoBehaviour {
                 LoadNextScene();
             }
         }
+
     }
 
     public void LoadNextScene()
